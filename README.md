@@ -1,3 +1,3 @@
 # mdpiper.github.io
 
-My GitHub home page.
+[This](http://mdpiper.github.io/) is my GitHub home page.
