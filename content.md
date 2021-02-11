@@ -12,7 +12,8 @@ workflow.
 I've contributed to the following software projects
 (some more than others; check the GitHub stats for my contributions).
 
-* The [Basic Model Interface](https://github.com/csdms/bmi) (BMI) standard
+* The [Basic Model Interface](https://github.com/csdms/bmi) (BMI), a
+  standardized set of functions for querying, modifying, and running models
     * [Documentation](https://bmi.readthedocs.io/) (written in Sphinx, hosted on Read The Docs)
     * Language bindings:
         * [bmi-c](https://github.com/csdms/bmi-c)
@@ -27,14 +28,60 @@ I've contributed to the following software projects
         * [bmi-example-fortran](https://github.com/csdms/bmi-example-fortran)
         * [bmi-example-python](https://github.com/csdms/bmi-example-python)
     * The [BMI v2.0 paper](https://doi.org/10.21105/joss.02317) in the *Journal of Open Source Software*
-* babelizer
-* pymt
+* The [babelizer](https://github.com/csdms/babelizer/), an open source Python
+  utility for wrapping models that expose a BMI, allowing them to be imported as
+  Python packages
+    * [Documentation](https://babelizer.readthedocs.io) (written in Sphinx, hosted on Read The Docs), including a long-form [example](https://babelizer.readthedocs.io/en/latest/example.html) of babelizing a model written in C
+    * Templating code (written in Fortran and Cython, with jinja templating) for BMI-enabled Fortran models:
+        * [bmi_interoperability.f90](https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/bmi_interoperability.f90)
+        * [_fortran.pyx](https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/_fortran.pyx)
+* The [Python Modeling Toolkit](https://github.com/csdms/pymt) (pymt), an open source Python package that
+  provides the tools needed to run and couple models that expose a BMI
+    * [Documentation](https://pymt.readthedocs.io) (written in Sphinx, hosted on Read The Docs)
+* dakotathon
+* Permafrost Benchmark System
 
 
-## Presentations
+
+### Development Tools
+
+I have experience with a variety of software development tools, services, and build systems,
+including:
+CMake and CTest (for C, C++, and Fortran projects, on Linux, macOS, and Windows),
+Python packaging with `pip` and `conda` (including several recipes on conda-forge),
+GNU toolchain (mostly `make`, some `configure`),
+GNU compilers (`gcc` and `gfortran`),
+`git` (primarily through GitHub, but also GitLab and and Bitbucket), Subversion,
+Docker,
+Emacs, Vi/m, VSCode, Eclipse,
+Slurm, TORQUE, Portable Batch System,
+shell tools (e.g., `grep`, `find`, and `sed`),
+pytest, Sphinx, Jupyter Notebook, JupyterHub,
+LaTeX, Markdown, reStructuredText, YAML, TOML, MediaWiki, Read the Docs,
+Travis CI, GitHub Actions, Amazon Web Services, Coveralls, rpmbuild,
+Confluence, JIRA
+
+
+## Projects
+
+PRMS components
+
+ESPIn summer school
+
+CSDMS Carpentry
+
+SWASH example, demonstrating...
+
+
+## Invited Talks and Presentations
 
 This is a selection of recent presentations.
 I tend to give fewer lectures and more interactive workshops.
+
+* 2020 GSA
+* 2019 AGU
+* 2019 USGS Community for Data Integration (CDI) Workshop
+* 2018 Coupling of Tectonic and Surface Processes (CTSP) Workshop
 
 * [BMI Live!](https://github.io/csdms/bmi-live), an interactive workshop on
   adding a BMI to a model
@@ -47,3 +94,21 @@ I tend to give fewer lectures and more interactive workshops.
 ## Publications
 
 My public [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAAJ&hl) page
+contains my publication history.
+
+
+## Education
+
+Ph.D., Astrophysical, Planetary, and Atmospheric Sciences, University of Colorado, Boulder, CO, 2001
+* Advisor: William Blumen
+* Thesis: _The effects of a frontal passage on fine-scale nocturnal boundary layer turbulence_
+* Graduate School Fellowship, 1995-1998
+* Mamabird (club ultimate)
+
+M.S., Meteorology, Penn State, University Park, PA, 1994
+* Advisor: John Wyngaard
+* Thesis: _Top-down, bottom-up diffusion experiments in a water convection tank_
+* Graduate student teaching award, 1993
+
+B.S., Mathematics, University of Wisconsin, Madison, WI, 1992
+* Field work in Greenland -- automatic weather stations, 1992
