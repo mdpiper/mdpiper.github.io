@@ -35,12 +35,11 @@ I've contributed to the following software projects
     * Templating code (written in Fortran and Cython, with jinja templating) for BMI-enabled Fortran models:
         * [bmi_interoperability.f90](https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/bmi_interoperability.f90)
         * [_fortran.pyx](https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/_fortran.pyx)
-* The [Python Modeling Toolkit](https://github.com/csdms/pymt) (pymt), an open source Python package that
+* The [Python Modeling Toolkit](https://github.com/csdms/pymt) (pymt) is an open source Python package that
   provides the tools needed to run and couple models that expose a BMI
     * [Documentation](https://pymt.readthedocs.io) (written in Sphinx, hosted on Read The Docs)
 * dakotathon
 * Permafrost Benchmark System
-
 
 
 ### Development Tools
@@ -66,7 +65,7 @@ Confluence, JIRA
 
 PRMS components
 
-ESPIn summer school
+ESPIn summer school. Jupyter Notebook.
 
 CSDMS Carpentry
 
@@ -78,11 +77,10 @@ SWASH example, demonstrating...
 This is a selection of recent presentations.
 I tend to give fewer lectures and more interactive workshops.
 
-* 2020 GSA
-* 2019 AGU
-* 2019 USGS Community for Data Integration (CDI) Workshop
-* 2018 Coupling of Tectonic and Surface Processes (CTSP) Workshop
-
+* 2020 GSA Annual Meeting Workshop: [Exploring Surface Processes using CSDMS Modeling Tools: How to Build Coupled Models](https://github.com/csdms/gsa-2020)
+* 2019 AGU Fall Meeting Workshop: [Exploring Surface Processes: How to Build Coupled Models](https://github.com/csdms/agu-2019/)
+* 2019 [USGS Community for Data Integration (CDI) Workshop](https://my.usgs.gov/confluence/display/cdi/2019+CDI+Workshop), where I gave an invited talk, a lightning talk, and a poster
+* 2018 [Coupling of Tectonic and Surface Processes (CTSP) Workshop](https://csdms.colorado.edu/wiki/Form:Meetingconfirmation), where I gave an [invited talk](https://csdms.colorado.edu/wiki/Presenters-0037)
 * [BMI Live!](https://github.io/csdms/bmi-live), an interactive workshop on
   adding a BMI to a model
 * [Dakota seminar](https://mdpiper.github.io/dakota-seminar), a lecture on the
@@ -95,20 +93,5 @@ I tend to give fewer lectures and more interactive workshops.
 
 My public [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAAJ&hl) page
 contains my publication history.
-
-
-## Education
-
-Ph.D., Astrophysical, Planetary, and Atmospheric Sciences, University of Colorado, Boulder, CO, 2001
-* Advisor: William Blumen
-* Thesis: _The effects of a frontal passage on fine-scale nocturnal boundary layer turbulence_
-* Graduate School Fellowship, 1995-1998
-* Mamabird (club ultimate)
-
-M.S., Meteorology, Penn State, University Park, PA, 1994
-* Advisor: John Wyngaard
-* Thesis: _Top-down, bottom-up diffusion experiments in a water convection tank_
-* Graduate student teaching award, 1993
-
-B.S., Mathematics, University of Wisconsin, Madison, WI, 1992
-* Field work in Greenland -- automatic weather stations, 1992
+My [ORCiD profile page](https://orcid.org/0000-0001-6418-277X) also includes
+my currently funded awards and software products.
