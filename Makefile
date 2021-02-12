@@ -10,7 +10,7 @@ DOCS= \
 
 all: ${DOCS}
 
-show:
+show: ${DOCS}
 	python -m http.server &
 	open http://[::]:8000/
 
