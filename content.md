@@ -1,3 +1,5 @@
+# Summary
+
 I'm a research software engineer with over 20 years of geoscientific software
 development experience in multiple languages on desktop and HPC systems.
 
@@ -7,7 +9,7 @@ We produce an open-source model coupling cyberinfrastructure
 that transforms models written in Fortran, C, and C++ into
 plug-and-play Python components through a standards-based, jinja-templated, Cython workflow.
 
-## Software
+# Software
 
 I've contributed to the following core software projects at CSDMS.
 
@@ -39,7 +41,7 @@ I've contributed to the following core software projects at CSDMS.
     * [Documentation](https://pymt.readthedocs.io) (written in Sphinx, hosted on Read The Docs)
 
 
-### Development Tools
+## Development Tools
 
 I have experience with a variety of software development tools, services, and build systems,
 including:
@@ -58,11 +60,11 @@ Travis CI, GitHub Actions, Amazon Web Services, Coveralls, rpmbuild,
 Confluence, JIRA
 
 
-## Projects
+# Projects
 
 These are some recent internal and external projects I've been involved with.
 
-### PRMS Componentization
+## PRMS Componentization
 
 In this project,
 a collaboration with Rich McDonald, Steve Markstrom, and Parker Norton of the USGS,
@@ -99,7 +101,7 @@ Source code repositories:
     * [pymt_gridmet](https://github.com/pymt-lab/pymt_gridmet) component
 * [Demonstration](https://github.com/nhm-usgs/bmi-prms-demo)
 
-### The Earth Surface Processes Institute (ESPIn)
+## The Earth Surface Processes Institute (ESPIn)
 
 The Earth Surface Processes Institute (ESPIn) is an NSF-sponsored summer school
 for 25 graduate students, postdoctoral fellows, and early career faculty. ESPIn
@@ -111,7 +113,7 @@ coding. I'm a PI on this project.
 * [2021 ESPIn announcement](https://csdms.colorado.edu/wiki/ESPIn2021)
 * [2020 course materials](https://github.com/csdms/espin)
 
-### Additional Projects
+## Additional Projects
 
 * [dakotathon](https://github.com/csdms/dakotathon) provides a BMI and a Python
   API for a subset of the methods included in the
@@ -129,7 +131,7 @@ coding. I'm a PI on this project.
   where community members can ask questions and get help with CSDMS products and services.
 
 
-## Invited Talks and Presentations
+# Invited Talks and Presentations
 
 This is a selection of recent presentations.
 I tend to give fewer lectures and more interactive workshops.
@@ -146,7 +148,7 @@ I tend to give fewer lectures and more interactive workshops.
   using IDL in the atmospheric sciences for CU-ATOC grad students
 
 
-## Publications
+# Publications
 
 My public [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAAJ&hl) page
 contains my publication history.
