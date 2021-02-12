@@ -1,3 +1,5 @@
+<div id="inner_content">
+
 # Summary
 
 I'm a research software engineer with over 20 years of geoscientific software
@@ -154,3 +156,5 @@ My public [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAA
 contains my publication history.
 My [ORCiD profile page](https://orcid.org/0000-0001-6418-277X) also includes
 my current funded awards and software products.
+
+</div>

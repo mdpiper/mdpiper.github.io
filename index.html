@@ -11,7 +11,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script>
       $(function(){
-        $("#includedContent").load("content.html");
+        $("#outer_content").load("content.html #inner_content");
       });
     </script>
 
@@ -28,105 +28,7 @@
 
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-
-        <h1 id="summary">Summary</h1>
-        <p>I’m a research software engineer with over 20 years of geoscientific software development experience in multiple languages on desktop and HPC systems.</p>
-        <p>I’m currently one of two developers in the NSF-funded <a href="https://csdms.colorado.edu">Community Surface Dynamics Modeling System</a> (CSDMS). We produce an open-source model coupling cyberinfrastructure that transforms models written in Fortran, C, and C++ into plug-and-play Python components through a standards-based, jinja-templated, Cython workflow.</p>
-        <h1 id="software">Software</h1>
-        <p>I’ve contributed to the following core software projects at CSDMS.</p>
-        <ul>
-        <li>The <a href="https://github.com/csdms/bmi">Basic Model Interface</a> (BMI), a standardized set of functions for querying, modifying, and running models
-        <ul>
-        <li><a href="https://bmi.readthedocs.io/">Documentation</a> (written in Sphinx, hosted on Read The Docs)</li>
-        <li>Language bindings:
-        <ul>
-        <li><a href="https://github.com/csdms/bmi-c">bmi-c</a></li>
-        <li><a href="https://github.com/csdms/bmi-cxx">bmi-cxx</a></li>
-        <li><a href="https://github.com/csdms/bmi-fortran">bmi-fortran</a></li>
-        <li><a href="https://github.com/csdms/bmi-java">bmi-java</a></li>
-        <li><a href="https://github.com/csdms/bmi-python">bmi-python</a></li>
-        </ul></li>
-        <li>Conda recipes for the Fortran, C, C++, and Python language bindings on <a href="https://github.com/conda-forge?q=bmi&amp;type=&amp;language=">conda-forge</a></li>
-        <li>Sample implementations of the BMI, using a simple diffusion model:
-        <ul>
-        <li><a href="https://github.com/csdms/bmi-example-c">bmi-example-c</a></li>
-        <li><a href="https://github.com/csdms/bmi-example-cxx">bmi-example-cxx</a></li>
-        <li><a href="https://github.com/csdms/bmi-example-fortran">bmi-example-fortran</a></li>
-        <li><a href="https://github.com/csdms/bmi-example-python">bmi-example-python</a></li>
-        </ul></li>
-        <li>The <a href="https://doi.org/10.21105/joss.02317">BMI v2.0 paper</a> in the <em>Journal of Open Source Software</em></li>
-        </ul></li>
-        <li>The <a href="https://github.com/csdms/babelizer/">babelizer</a>, an open source Python utility for wrapping models that expose a BMI, allowing them to be imported as Python packages
-        <ul>
-        <li><a href="https://babelizer.readthedocs.io">Documentation</a> (written in Sphinx, hosted on Read The Docs), including a long-form <a href="https://babelizer.readthedocs.io/en/latest/example.html">example</a> of babelizing a model written in C</li>
-        <li>Templating code (written in Fortran and Cython, with jinja templating) for BMI-enabled Fortran models:
-        <ul>
-        <li><a href="https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/bmi_interoperability.f90">bmi_interoperability.f90</a></li>
-        <li><a href="https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/_fortran.pyx">_fortran.pyx</a></li>
-        </ul></li>
-        </ul></li>
-        <li>The <a href="https://github.com/csdms/pymt">Python Modeling Toolkit</a> (pymt) is an open source Python package that provides the tools needed to run and couple models that expose a BMI
-        <ul>
-        <li><a href="https://pymt.readthedocs.io">Documentation</a> (written in Sphinx, hosted on Read The Docs)</li>
-        </ul></li>
-        </ul>
-        <h2 id="development-tools">Development Tools</h2>
-        <p>I have experience with a variety of software development tools, services, and build systems, including: CMake and CTest (for C, C++, and Fortran projects, on Linux, macOS, and Windows), Python packaging with <code>pip</code> and <code>conda</code> (including several recipes on conda-forge), GNU toolchain (mostly <code>make</code>, some <code>configure</code>), GNU compilers (<code>gcc</code> and <code>gfortran</code>), <code>git</code> (primarily through GitHub, but also GitLab and and Bitbucket), Subversion, Docker, Emacs, Vi/m, VSCode, Eclipse, Slurm, TORQUE, Portable Batch System, shell tools (e.g., <code>grep</code>, <code>find</code>, and <code>sed</code>), pytest, Sphinx, Jupyter Notebook, JupyterHub, LaTeX, Markdown, reStructuredText, YAML, TOML, MediaWiki, Read the Docs, Travis CI, GitHub Actions, Amazon Web Services, Coveralls, rpmbuild, Confluence, JIRA</p>
-        <h1 id="projects">Projects</h1>
-        <p>These are some recent internal and external projects I’ve been involved with.</p>
-        <h2 id="prms-componentization">PRMS Componentization</h2>
-        <p>In this project, a collaboration with Rich McDonald, Steve Markstrom, and Parker Norton of the USGS, the <a href="https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms">Precipitation-Runoff Modeling System</a> (PRMS) v6 was decomposed into four physical process components: Surface, Soil, Groundwater, and Streamflow. A BMI was added to each process component, and each BMI-equipped component was wrapped in Python and made callable through <em>pymt</em>. To provide input data to drive the process models, a web-services data component was developed to ingest <a href="http://www.climatologylab.org/gridmet.html">gridMET</a>, a dataset of daily high-spatial resolution surface meteorological data covering the contiguous United States. In a simple test, the four process components were coupled back into a single model driven by the gridMET data component and successfully compared with PRMS itself. I’m a PI on this USGS-funded project.</p>
-        <p>Source code repositories:</p>
-        <ul>
-        <li>PRMS process components
-        <ul>
-        <li><a href="https://github.com/nhm-usgs/bmi-prms6-surface">PRMSSurface</a></li>
-        <li><a href="https://github.com/nhm-usgs/bmi-prms6-soil">PRMSSoil</a></li>
-        <li><a href="https://github.com/nhm-usgs/bmi-prms6-groundwater">PRMSGroundwater</a></li>
-        <li><a href="https://github.com/nhm-usgs/bmi-prms6-streamflow">PRMSStreamflow</a></li>
-        </ul></li>
-        <li>PRMS <em>pymt</em> components
-        <ul>
-        <li><a href="https://github.com/pymt-lab/pymt_prms_surface">pymt_prms_surface</a></li>
-        <li><a href="https://github.com/pymt-lab/pymt_prms_soil">pymt_prms_soil</a></li>
-        <li><a href="https://github.com/pymt-lab/pymt_prms_groundwater">pymt_prms_groundwater</a></li>
-        <li><a href="https://github.com/pymt-lab/pymt_prms_streamflow">pymt_prms_streamflow</a></li>
-        </ul></li>
-        <li>gridMET data component
-        <ul>
-        <li><a href="https://github.com/nhm-usgs/gridmet_bmi">gridmet_bmi</a> library</li>
-        <li><a href="https://github.com/pymt-lab/pymt_gridmet">pymt_gridmet</a> component</li>
-        </ul></li>
-        <li><a href="https://github.com/nhm-usgs/bmi-prms-demo">Demonstration</a></li>
-        </ul>
-        <h2 id="the-earth-surface-processes-institute-espin">The Earth Surface Processes Institute (ESPIn)</h2>
-        <p>The Earth Surface Processes Institute (ESPIn) is an NSF-sponsored summer school for 25 graduate students, postdoctoral fellows, and early career faculty. ESPIn is designed to help participants make advances in earth surface processes research by teaching cyberinfrastructure skills in numerical modeling, best programming practices, open source software development, and collaborative coding. I’m a PI on this project.</p>
-        <ul>
-        <li><a href="https://csdms.colorado.edu/wiki/ESPIn2021">2021 ESPIn announcement</a></li>
-        <li><a href="https://github.com/csdms/espin">2020 course materials</a></li>
-        </ul>
-        <h2 id="additional-projects">Additional Projects</h2>
-        <ul>
-        <li><a href="https://github.com/csdms/dakotathon">dakotathon</a> provides a BMI and a Python API for a subset of the methods included in the <a href="https://dakota.sandia.gov/">Dakota</a> iterative systems analysis toolkit</li>
-        <li>The <a href="https://permamodel.github.io/pbs">Permafrost Benchmark System</a> is an open source web application for conducting benchmarking studies of permafrost models. I was a PI on this NASA-funded project.</li>
-        <li><a href="https://github.com/csdms/csdms-carpentry">CSDMS Carpentry</a> is a fork of Software Carpentry with content modified for earth surface process modelers. We traditioanlly run this as a one-day preconference workshop before the CSDMS Annual Meeting, but it has ben paused during COVID times.</li>
-        <li>I manage the <a href="https://csdms.colorado.edu/wiki/JupyterHub">CSDMS JupyterHub</a>, including the Amazon Web Services backend.</li>
-        <li>I stood up, and I currently manage, the <a href="https://github.com/csdms/help-desk/">CSDMS Help Desk</a>, where community members can ask questions and get help with CSDMS products and services.</li>
-        </ul>
-        <h1 id="invited-talks-and-presentations">Invited Talks and Presentations</h1>
-        <p>This is a selection of recent presentations. I tend to give fewer lectures and more interactive workshops.</p>
-        <ul>
-        <li>2020 GSA Annual Meeting workshop: <a href="https://github.com/csdms/gsa-2020">Exploring Surface Processes using CSDMS Modeling Tools: How to Build Coupled Models</a></li>
-        <li>2019 AGU Fall Meeting workshop: <a href="https://github.com/csdms/agu-2019/">Exploring Surface Processes: How to Build Coupled Models</a></li>
-        <li>2019 <a href="https://my.usgs.gov/confluence/display/cdi/2019+CDI+Workshop">USGS Community for Data Integration (CDI) Workshop</a>, where I gave an invited talk, a lightning talk, and a poster</li>
-        <li>2018 <a href="https://csdms.colorado.edu/wiki/Form:Meetingconfirmation">Coupling of Tectonic and Surface Processes (CTSP) Workshop</a>, where I gave an <a href="https://csdms.colorado.edu/wiki/Presenters-0037">invited talk</a></li>
-        <li><a href="https://github.io/csdms/bmi-live">BMI Live!</a>, an interactive workshop on adding a BMI to a model</li>
-        <li><a href="https://mdpiper.github.io/dakota-seminar">Dakota seminar</a>, a lecture on the <a href="https://dakota.sandia.gov">Dakota</a> iterative systems analysis toolkit</li>
-        <li><a href="https://mdpiper.github.io/ATOC-IDL-seminar">ATOC IDL seminar</a>, a clinic on using IDL in the atmospheric sciences for CU-ATOC grad students</li>
-        </ul>
-        <h1 id="publications">Publications</h1>
-        <p>My public <a href="https://scholar.google.com/citations?user=WoFAT20AAAAJ&amp;hl">Google Scholar</a> page contains my publication history. My <a href="https://orcid.org/0000-0001-6418-277X">ORCiD profile page</a> also includes my current funded awards and software products.</p>
-
+        <div id="outer_content"></div>
       </section>
     </div>
 
