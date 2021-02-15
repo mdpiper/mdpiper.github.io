@@ -47,19 +47,23 @@ I've contributed to the following core software projects at CSDMS.
 
 I have experience with a variety of software development tools, services, and build systems,
 including:
-CMake and CTest (for C, C++, and Fortran projects, on Linux, macOS, and Windows),
-Python packaging with `pip` and `conda` (including several recipes on conda-forge),
-GNU toolchain (mostly `make`, some `configure`),
-GNU compilers (`gcc` and `gfortran`),
-`git` (primarily through GitHub, but also GitLab and and Bitbucket), Subversion,
-Docker,
-Emacs, Vi/m, VSCode, Eclipse,
-Slurm, TORQUE, Portable Batch System,
-shell tools (e.g., `grep`, `find`, and `sed`),
-pytest, Sphinx, Jupyter Notebook, JupyterHub,
-LaTeX, Markdown, reStructuredText, YAML, TOML, MediaWiki, Read the Docs,
-Travis CI, GitHub Actions, Amazon Web Services, Coveralls, rpmbuild,
-Confluence, JIRA
+
+* Version control with `git` (primarily through GitHub, but also GitLab and Bitbucket) and Subversion
+* Build with CMake and CTest (for C, C++, and Fortran projects on Linux, macOS, and Windows)
+* GNU toolchain (mostly `make`, some `configure`) and GNU Compiler Collection (`gcc` and `gfortran`)
+* Shell tools (e.g., `grep`, `find`, and `sed`)
+* Continuous integration with Travis CI and GitHub Actions
+* Documentation with Sphinx, with hosting on Read the Docs
+* Python packaging with `pip` and `conda` (including several conda-forge recipes)
+* Python unit testing with pytest and nose; coverage with Coveralls 
+* Pangeo geoscientific Python environment (e.g., xarray, Jupyter; also numpy, pandas)
+* Geospatial image analysis with ENVI
+* Containerization with Docker
+* HPC job management with Slurm, Torque, Portable Batch System commands
+* Team communication and issue tracking with Slack, Confluence, JIRA
+* Development environments: Emacs, Vi/m, VS Code, Eclipse
+* Document generation with \LaTeX, pandoc, Markdown
+* Cloud services: Amazon Web Services, XSEDE Jetstream
 
 
 ## Projects
@@ -125,8 +129,8 @@ coding. I'm a PI on this project.
   models. I was a PI on this NASA-funded project.
 * [CSDMS Carpentry](https://github.com/csdms/csdms-carpentry) is a fork of
   Software Carpentry with content modified for earth surface process modelers.
-  We traditioanlly run this as a one-day preconference workshop before the CSDMS
-  Annual Meeting, but it has ben paused during COVID times.
+  We traditionally run this as a one-day preconference workshop before the CSDMS
+  Annual Meeting, but it has been paused during COVID times.
 * I manage the [CSDMS JupyterHub](https://csdms.colorado.edu/wiki/JupyterHub),
   including the Amazon Web Services backend.
 * I stood up, and I currently manage, the [CSDMS Help Desk](https://github.com/csdms/help-desk/),
@@ -156,5 +160,7 @@ My public [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAA
 contains my publication history.
 My [ORCiD profile page](https://orcid.org/0000-0001-6418-277X) also includes
 my current funded awards and software products.
+My brief [NSF biosketch](https://www.ncbi.nlm.nih.gov/myncbi/1hKfjBNRgpD1OC/cv/342791/)
+is publicly available from SciENcv.
 
 </div>
