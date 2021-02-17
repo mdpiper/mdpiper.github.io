@@ -163,4 +163,12 @@ my current funded awards and software products.
 My brief [NSF biosketch](https://www.ncbi.nlm.nih.gov/myncbi/1hKfjBNRgpD1OC/cv/342791/)
 is publicly available from SciENcv.
 
+
+## Extracurriculars
+
+* Co-founder and co-captain of Bighorn, a club Ultimate team competing in the
+  USA Ultimate men's Grandmasters (40+) division (2015--present)
+* Grass Roots Ultimate Lifetime Spirit Award winner (2015)
+* Avid bicycle commuter, board gamer, and bookworm
+
 </div>
