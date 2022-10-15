@@ -39,6 +39,7 @@ I've contributed to the following core software projects at CSDMS.
     * Templating code (written in Fortran and Cython, with jinja templating) for BMI-enabled Fortran models:
         * [bmi_interoperability.f90](https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/bmi_interoperability.f90)
         * [_fortran.pyx](https://github.com/csdms/babelizer/blob/develop/babelizer/data/%7B%7Bcookiecutter.package_name%7D%7D/%7B%7Bcookiecutter.package_name%7D%7D/lib/_fortran.pyx)
+    * The [babelizer paper](https://doi.org/10.21105/joss.03344) in the *Journal of Open Source Software*
 * The [Python Modeling Toolkit](https://github.com/csdms/pymt) (pymt) is an open source Python package that
   provides the tools needed to run and couple models that expose a BMI
     * [Documentation](https://pymt.readthedocs.io) (written in Sphinx, hosted on Read The Docs)
