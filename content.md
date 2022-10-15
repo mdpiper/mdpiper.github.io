@@ -143,16 +143,14 @@ coding. I'm a PI on this project.
 This is a selection of recent presentations.
 I tend to give fewer lectures and more interactive workshops.
 
-* 2020 GSA Annual Meeting workshop: [Exploring Surface Processes using CSDMS Modeling Tools: How to Build Coupled Models](https://github.com/csdms/gsa-2020)
+* GSA Connects 2022 short course: *Exploring Surface Processes using the CSDMS Workbench: Building Coupled Models*, using the [CSDMS Ivy](https://github.com/csdms/ivy) courseware
+* [Python Programming in the Geosciences](https://github.com/csdms/reccs), a one-day workshop for community college students in the RECCS program at CU-Boulder, June 2022
+* GSA Connects 2020 short course: [Exploring Surface Processes using CSDMS Modeling Tools: How to Build Coupled Models](https://github.com/csdms/gsa-2020)
 * 2019 AGU Fall Meeting workshop: [Exploring Surface Processes: How to Build Coupled Models](https://github.com/csdms/agu-2019/)
 * 2019 [USGS Community for Data Integration (CDI) Workshop](https://my.usgs.gov/confluence/display/cdi/2019+CDI+Workshop), where I gave an invited talk, a lightning talk, and a poster
 * 2018 [Coupling of Tectonic and Surface Processes (CTSP) Workshop](https://csdms.colorado.edu/wiki/Form:Meetingconfirmation), where I gave an [invited talk](https://csdms.colorado.edu/wiki/Presenters-0037)
 * [BMI Live!](https://github.io/csdms/bmi-live), an interactive workshop on
   adding a BMI to a model
-* [Dakota seminar](https://mdpiper.github.io/dakota-seminar), a lecture on the
-  [Dakota](https://dakota.sandia.gov) iterative systems analysis toolkit
-* [ATOC IDL seminar](https://mdpiper.github.io/ATOC-IDL-seminar), a clinic on
-  using IDL in the atmospheric sciences for CU-ATOC grad students
 
 
 ## Publications
@@ -161,14 +159,16 @@ My public [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAA
 contains my publication history.
 My [ORCiD profile page](https://orcid.org/0000-0001-6418-277X) also includes
 my current funded awards and software products.
-My brief [NSF biosketch](https://www.ncbi.nlm.nih.gov/myncbi/1hKfjBNRgpD1OC/cv/342791/)
+My brief [NSF biosketch](https://www.ncbi.nlm.nih.gov/myncbi/1hKfjBNRgpD1OC/cv/576464/)
 is publicly available from SciENcv.
 
 
 ## Extracurriculars
 
-* Co-founder and co-captain of Bighorn, a club Ultimate team competing in the
-  USA Ultimate men's Grandmasters (40+) division (2015--present)
+* Co-founder and co-captain of Silverhorn, a club Ultimate team competing in the
+  USA Ultimate men's Great Grandmasters (50+) division (2021--present)
+* Co-founder and former co-captain of Bighorn, a club Ultimate team competing in the
+  USA Ultimate men's Grandmasters (40+) division (2015--2021)
 * Grass Roots Ultimate Lifetime Spirit Award winner (2015)
 * Avid bicycle commuter, board gamer, and bookworm
 
