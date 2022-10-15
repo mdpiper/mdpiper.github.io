@@ -2,12 +2,13 @@
 
 ## Summary
 
-I'm a research software engineer with over 20 years of geoscientific software
-development experience in multiple languages on desktop and HPC systems.
+I'm a research software engineer with over 20 years of experience
+developing geoscientific software
+in multiple languages on desktop, cloud, and HPC systems.
 
-I'm currently one of two developers in the NSF-funded
+I currently work in the NSF-funded
 [Community Surface Dynamics Modeling System](https://csdms.colorado.edu) (CSDMS).
-We produce an open-source model coupling cyberinfrastructure
+We produce open-source model coupling cyberinfrastructure
 that transforms models written in Fortran, C, and C++ into
 plug-and-play Python components through a standards-based, jinja-templated, Cython workflow.
 
