@@ -14,6 +14,7 @@ More information on my work is available through
 the [University of Colorado Boulder](https://www.colorado.edu/instaar/mark-piper),
 [ORCiD](https://orcid.org/0000-0001-6418-277X),
 [GitHub](https://github.com/mdpiper),
+[Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAAJ&hl=en),
 and [LinkedIn](https://www.linkedin.com/in/mdpiper).
 
 </div>
