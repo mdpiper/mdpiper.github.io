@@ -1,6 +1,6 @@
 <div id="inner_content">
 
-I'm a research software engineer with over 20 years of experience
+I'm a research software engineer with over 25 years of experience
 developing geoscientific software
 in multiple languages on desktop, cloud, and HPC systems.
 
@@ -11,7 +11,8 @@ that transforms models written in C, C++, Fortran, and Python into
 plug-and-play components through a standards-based workflow.
 
 More information on my work is available through
-the [University of Colorado Boulder](https://www.colorado.edu/instaar/mark-piper),
+[University of Colorado Boulder](https://experts.colorado.edu/display/fisid_153915),
+[Institute of Arctic and Alpine Research](https://www.colorado.edu/instaar/mark-piper),
 [ORCiD](https://orcid.org/0000-0001-6418-277X),
 [GitHub](https://github.com/mdpiper),
 [Google Scholar](https://scholar.google.com/citations?user=WoFAT20AAAAJ&hl=en),
